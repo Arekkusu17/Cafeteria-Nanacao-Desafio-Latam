@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test-exit": "node --experimental-vm-modules node_modules/jest/bin/jest.js --forceExit"  
   },
   "author": "",
   "license": "ISC",
